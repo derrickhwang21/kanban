@@ -31,6 +31,10 @@ public class Project {
     @JsonFormat(pattern = "yyyy-mm-dd")
     private Date updated_At;
 
+    // cascade also deletes backlog when project is deleted
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "project")
+    private Backlog backlog;
+
     public Project(){}
 
     @PrePersist
@@ -107,5 +111,11 @@ public class Project {
         this.updated_At = updated_At;
     }
 
+    public Backlog getBacklog() {
+        return backlog;
+    }
 
+    public void setBacklog(Backlog backlog) {
+        this.backlog = backlog;
+    }
 }
