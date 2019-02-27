@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c58880-7917-4367-9942-da62e3c9ec2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/Backlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/Backlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/ProjectBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanban-react-client/src/components/ProjectBoard/ProjectTasks/ProjectTask.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kanban/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,7 +301,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/kanban" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551248126358" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551249372310" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kanban/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -375,9 +377,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17165992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17165992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16583748" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21227197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
