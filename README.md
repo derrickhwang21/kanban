@@ -17,7 +17,6 @@ Site(coming soon) :
 ## Site
 
 ### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
 ![]()
 
