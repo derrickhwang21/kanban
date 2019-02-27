@@ -10,7 +10,6 @@ import com.hwang.kanban.repositories.ProjectTaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 
 @Service
 public class ProjectTaskService {
@@ -43,7 +42,7 @@ public class ProjectTaskService {
                 projectTask.setStatus("TO_DO");
             }
 
-            if(projectTask.getPriority() == null){
+            if(projectTask.getPriority()==0 || projectTask.getPriority() == null){
                 projectTask.setPriority(3);
             }
 
