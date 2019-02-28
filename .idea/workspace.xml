@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c58880-7917-4367-9942-da62e3c9ec2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kanban/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,47 +32,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/security/JwtTokenProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/security/JwtAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/security/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="77" column="100" selection-start-line="77" selection-start-column="100" selection-end-line="77" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/UserController.java">
+        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="245">
+              <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="38" column="95" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +87,7 @@
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/MapValidationErrorService.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/exceptions/ProjectIdExceptionResponse.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/exceptions/ProjectIdException.java" />
-        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java" />
-        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/BacklogRepository.java" />
-        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/exceptions/ProjectNotFoundException.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/exceptions/ProjectNotFOundExceptionResponse.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectTaskRepository.java" />
@@ -133,6 +118,9 @@
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/User.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/domain/Project.java" />
         <option value="$PROJECT_DIR$/kanban/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java" />
+        <option value="$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java" />
       </list>
     </option>
   </component>
@@ -276,7 +264,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/kanban" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551333479279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551334034920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kanban/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -363,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35986733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049751244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,16 +387,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kanban/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/exceptions/ProjectIdExceptionResponse.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -449,16 +427,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,16 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -836,8 +794,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="358">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/repositories/ProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/web/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="95" selection-start-line="38" selection-start-column="95" selection-end-line="38" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kanban/src/main/java/com/hwang/kanban/services/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
