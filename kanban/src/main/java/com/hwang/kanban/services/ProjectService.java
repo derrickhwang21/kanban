@@ -2,9 +2,11 @@ package com.hwang.kanban.services;
 
 import com.hwang.kanban.domain.Backlog;
 import com.hwang.kanban.domain.Project;
+import com.hwang.kanban.domain.User;
 import com.hwang.kanban.exceptions.ProjectIdException;
 import com.hwang.kanban.repositories.BacklogRepository;
 import com.hwang.kanban.repositories.ProjectRepository;
+import com.hwang.kanban.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +17,18 @@ public class ProjectService {
     private ProjectRepository projectRepository;
 
     @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
     BacklogRepository backlogRepository;
 
-    public Project saveOrUpdateProject(Project project){
+    public Project saveOrUpdateProject(Project project, String username){
         try{
+
+            User user = userRepository.findByUsername(username);
+
+            project.setUser(user);
+            project.setProjectLeader(user.getUsername());
             project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
 
             if(project.getId() == null) {
