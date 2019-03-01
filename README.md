@@ -18,7 +18,7 @@ https://limitless-bayou-42020.herokuapp.com/
 
 
 ### User Registration
-![registration](./assets/signup2.png)
+![registration](./assets/signup2.PNG)
 
 Custom exception handling for each form fields which dynamically renders if invoked for instances of existing email, invalid email format, and password length.
 
@@ -28,25 +28,25 @@ Custom exception handling for each form fields which dynamically renders if invo
 Custom exception handling for each form field to dynamically render if invoked for instances of invalid email or incorrect password
 
 ### Dashboard
-![dash](./assets/DashboardCloudUser.png)
+![dash](./assets/DashboardCloudUser.PNG)
 
 Dashboard direction specific for each user that is currently signed in. Each created project will render dynamically here. Allows for users 
 
 ### Create Project
-![create-project](./assets/CreateProjectCloud.png)
-![dash](./assets/projectboardwithproject.png)
+![create-project](./assets/CreateProjectCloud.PNG)
+![dash](./assets/projectboardwithproject.PNG)
 
 Within the dashboard the user has the ability to view their tasks, create another project, logout to work as another user (in the global navigation), update their project information, or delete their project all together.
 ### Add Task
-![add-task](./assets/addtask.png)
-![add-task-2](./assets/projectboardwithtask.png)
+![add-task](./assets/addtask.PNG)
+![add-task-2](./assets/projectboardwithtask.PNG)
 
 Custom exceptions handling is included in all the form field for requiring input for name and due date, if the options is left untouched for the "Priority" or "Status" the field will by default be "LOW" and "TO DO" respectively.
 
 
 ### Update Task
-![update-task](./assets/updatetask.png)
-![update-task-2](./assets/updatedboard.png)
+![update-task](./assets/updatetask.PNG)
+![update-task-2](./assets/updatedboard.PNG)
 
 
 
