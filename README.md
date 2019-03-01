@@ -1,4 +1,4 @@
-# ![Dashboard]()
+# ![Dashboard](./assets/landing.PNG)
 # kanban_java+react-redux
 <table>
 <tr>
@@ -11,26 +11,45 @@
 
 
 ## Demo
-Site(coming soon) : 
+https://limitless-bayou-42020.herokuapp.com/
 
 
 ## Site
 
-### Landing Page
-
-![]()
-
-### Dashboard
-![]()
-
-### Project Board
-![]()
 
 ### User Registration
-![]()
+![registration](./assets/signup2.png)
+
+Custom exception handling for each form fields which dynamically renders if invoked for instances of existing email, invalid email format, and password length.
 
 ### User Sign In
-![]()
+![login](./assets/Login.png)
+
+Custom exception handling for each form field to dynamically render if invoked for instances of invalid email or incorrect password
+
+### Dashboard
+![dash](./assets/DashboardCloudUser.png)
+
+Dashboard direction specific for each user that is currently signed in. Each created project will render dynamically here. Allows for users 
+
+### Create Project
+![create-project](./assets/CreateProjectCloud.png)
+![dash](./assets/projectboardwithproject.png)
+
+Within the dashboard the user has the ability to view their tasks, create another project, logout to work as another user (in the global navigation), update their project information, or delete their project all together.
+### Add Task
+![add-task](./assets/addtask.png)
+![add-task-2](./assets/projectboardwithtask.png)
+
+Custom exceptions handling is included in all the form field for requiring input for name and due date, if the options is left untouched for the "Priority" or "Status" the field will by default be "LOW" and "TO DO" respectively.
+
+
+### Update Task
+![update-task](./assets/updatetask.png)
+![update-task-2](./assets/updatedboard.png)
+
+
+
 
 
 
@@ -47,12 +66,11 @@ Site(coming soon) :
 - [classnames]() - Replacement for `classSet`, to make dynamic and conditional props in React
 - [MySQL]() - Relational database management system for domain modeling
 - [H2 Database]() - In memory database for early stage development process
+-[Heroku]() - Deployed to Heroku using ClearDb
 
 
 ## To-do
-- Security
-- Log In
-- Azure
+- Azure (Currently deployed on Heroku)
 
 
 
